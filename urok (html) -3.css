@@ -1,0 +1,31 @@
+*
+
+input {
+    color: chartreuse;
+    background-color: cyan;
+}
+
+text {
+    color: black;
+}
+
+#text-in-p {
+    color: blue;
+}
+
+#text-p {
+    color: green;
+}
+
+big {
+    color: blueviolet;
+}
+
+div p b, div i {
+    color: crimson;
+    background-color: rgb(204, 181, 6);
+}
+
+/* div, name-class, #id, div p {
+    color: gold;
+} */
