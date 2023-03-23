@@ -1,47 +1,46 @@
-p.text:not(:empty) {
-    color: green;
-}
-
-p.text:empty::after {
-    color: green;
-    content: '123';
-}
-
 .main_link {
     color: red;
-    text-decoration: none;
+    text-decoration: overline;
 }
 
 .main_link:hover {
-    color: rgb(0, 8, 255);
-    text-decoration: underline;
-    text-decoration-color: black;
+    color: rgb(0, 0, 0);
+    text-decoration:  underline;
+    text-decoration-color: cornflowerblue;
     cursor: pointer;
 }
 
-.main_link:active {
-    text-decoration: line-through;
-}
 
 .main_link:visited {
-    color: grey;
+    color: goldenrod;
 }
 
 input {
     color: blue;
 }
 
-input:focus {
-    color: red;
+input:disabled {
+
 }
 
-#some_id::after {
-    content: '123';
+input:focus {
+    color: red;
+
+}
+
+p.text:empty::after  {
+    color: rgb(253, 0, 0);
+    content: '1234567';
+    content: attr(title);
+}
+
+#some_text::before{
+    content: '123456';
     color: red;
 }
 
 p.main_link::first-line {
-    color: green;
+    color: darkgreen;
 }
 
 p:last-of-type {
