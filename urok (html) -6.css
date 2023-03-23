@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+.main_text {
+    color: brown;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bolder;
+    font-family: 'Sansita Swashed' , cursive;
+
+    text-transform: uppercase;
+    word-spacing: 21px;
+    letter-spacing: 20px;
+    line-height: 55px;
+    text-decoration: line-through;
+    cursor: all-scroll;
+}
